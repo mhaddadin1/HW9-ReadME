@@ -29,7 +29,7 @@ const questions = [
     name: "license",
     type: "list",
     message: "what kind of license",
-    choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "NONE"],
+    choices: ["MIT", "APACHE 2.0", "GPL 3.0", "NONE"],
   },
   {
     name: "contributing",
@@ -42,14 +42,22 @@ const questions = [
     message: "how to test your project",
   },
   {
-    name: "github link",
+    name: "link",
     type: "input",
     message: "enter github repo link",
+    validate: function (input) {
+      const valid = input.startsWith("https://");
+      return valid || "Please enter a valid website";
+    },
   },
   {
-    name: "github pages",
+    name: "pages",
     type: "input",
     message: "enter github pages link",
+    validate: function (input) {
+      const valid = input.startsWith("https://");
+      return valid || "Please enter a valid website";
+    },
   },
   {
     name: "email",

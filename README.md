@@ -1,8 +1,8 @@
 
-  # mousa
+  # Readme generator 
 
   ## Description 
-  mousa2
+  generates professional readme
 
   ## Table of Contents:
   * [Description](./README#description)
@@ -10,29 +10,37 @@
   * [Usage](./README#usage)
   * [Contributing](./README#contribute)
   * [Tests](./README#tests)
+  * [License](./README#license)
   * [Links to Repo and Pages](./README#links-to-application)
   
   ## Installation
-  mousa3
+  install npm and inquirer
 
   ## Usage
-  mousa4
+  open terminal and run node index
 
   ## Contribute
-  mousa
+  none
 
   ## Tests
-  mosua
+  none
 
   ## License
-  APACHE 2.0
+  
+  This project is licensed under [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
+  
+  
 
   ## Links to Application
 
-  -Repo Link: undefined
-  -Pages Link: undefined
+  -Repo Link: https://github.com/mhaddadin1/HW9-ReadME
+
+  <br>
+
+  -Pages Link: https://mhaddadin1.github.io/HW9-ReadME/
 
   ## Questions
+
   mousahaddadin@gmail.com
   
   
